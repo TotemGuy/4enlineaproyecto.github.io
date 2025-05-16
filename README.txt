@@ -1,1 +1,0 @@
-NOTA IMPORTANTE: es necesario usar un servidor web para jugar a este juego, como por ejemplo usando la extensión Go Live de Visual Studio Code, la cual crea un servidor local. De otro modo, los gráficos del juego no se cargarán correctamente.
