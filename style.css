@@ -1,0 +1,39 @@
+:root {
+    --color-primario: #00c2cb;
+    --color-secundario: #ff6b6b;
+    --color-fondo: #006BB2;
+    --color-texto: #333;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: var(--color-primario);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  canvas{
+    margin: auto;
+    display: flex;
+    height: 80vh;
+  }
